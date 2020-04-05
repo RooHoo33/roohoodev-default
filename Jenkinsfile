@@ -17,6 +17,8 @@ spec:
     volumeMounts:
     - name: dockersock
       mountPath: /var/run/docker.sock
+    - name: jnlp
+        image: roohoo/jenkins-jnlp-slave:0.0.5
   volumes:
   - name: dockersock
     hostPath:
