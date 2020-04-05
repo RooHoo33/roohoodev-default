@@ -32,7 +32,7 @@ spec:
     stages {
         stage("Deploy"){
             steps {
-                kubernetesDeploy configs: '/k8s/', kubeConfig: [path: ''], kubeconfigId: 'kubeconfig-master', secretName: '', ssh: [sshCredentialsId: '*', sshServer: ''], textCredentials: [certificateAuthorityData: '', clientCertificateData: '', clientKeyData: '', serverUrl: 'https://']
+                kubernetesDeploy configs: '**/k8s/*.yaml', kubeConfig: [path: ''], kubeconfigId: 'kubeconfig-master', secretName: '', ssh: [sshCredentialsId: '*', sshServer: ''], textCredentials: [certificateAuthorityData: '', clientCertificateData: '', clientKeyData: '', serverUrl: 'https://']
             }
         }
         stage('Build') {
