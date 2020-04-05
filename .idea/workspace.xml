@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d69c600-b4b7-4ad1-b93a-c22d55f118c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipeline.gdsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roohoodev-default.iml" beforeDir="false" afterPath="$PROJECT_DIR$/roohoodev-default.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585847778467</updated>
       <workItem from="1585847781908" duration="297000" />
-      <workItem from="1586047216824" duration="7358000" />
+      <workItem from="1586047216824" duration="7667000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1586049558072</created>
@@ -155,7 +151,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586053310565</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added docker build">
+      <created>1586105141747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586105141747</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added docker build">
+      <created>1586105202797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586105202797</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added docker build">
+      <created>1586105333174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586105333174</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +193,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="added Jenkinsfile" />
     <MESSAGE value="fix Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix Jenkinsfile" />
+    <MESSAGE value="added docker build" />
+    <option name="LAST_COMMIT_MESSAGE" value="added docker build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#Notifications" timestamp="1586049960696">
@@ -187,10 +205,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586049390416" />
-    <state x="880" y="209" key="CommitChangelistDialog2" timestamp="1586105202383">
+    <state x="880" y="209" key="CommitChangelistDialog2" timestamp="1586105332708">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="880" y="209" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586105202383" />
+    <state x="880" y="209" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586105332708" />
     <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1586104493338">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -219,10 +237,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="343" key="SettingsEditor/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586104482043" />
-    <state x="873" y="430" key="Vcs.Push.Dialog.v2" timestamp="1586105203680">
+    <state x="873" y="430" key="Vcs.Push.Dialog.v2" timestamp="1586105334212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="430" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586105203680" />
+    <state x="873" y="430" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586105334212" />
     <state x="988" y="474" key="git4idea.merge.GitPullDialog" timestamp="1586050152670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
