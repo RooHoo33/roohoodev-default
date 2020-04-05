@@ -43,7 +43,7 @@ spec:
         //sh "docker push roohoo/roohoodev-default:0.0.1"
         script {
         def image = docker.build("roohoo/roohoodev-default:0.0.2")
-        docker.push()
+        image.push()
 }
         }
         }
