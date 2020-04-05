@@ -1,5 +1,12 @@
 pipeline {
 
+agent {
+    kubernetes {
+    label 'jenkins-slave-jnlp'
+    }
+    }
+
+
     stages {
         stage('Build') {
             steps {
