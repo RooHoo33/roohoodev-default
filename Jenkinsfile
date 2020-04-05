@@ -1,10 +1,6 @@
 pipeline {
 
-agent {
-    kubernetes {
-    label 'jenkins-slave-jnlp'
-    }
-    }
+agent any
 
 
     stages {
