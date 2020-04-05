@@ -41,8 +41,9 @@ spec:
         container('docker') {
         //sh "docker build -t roohoo/roohoodev-default:0.0.1 ."
         //sh "docker push roohoo/roohoodev-default:0.0.1"
+        script {
         def image = docker.build("roohoo/roohoodev-default:0.0.1")
-
+}
         }
         }
         }
