@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: roohoodev-default-deployment
+  labels:
+    app: roohoodev-default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: roohoodev-default
+  template:
+    metadata:
+      labels:
+        app: roohoodev-default
+    spec:
+      containers:
+        - name: roohoodev-default
+          image: roohoo/roohoodev-default:0.0.2
+          ports:
+            - containerPort: 80
