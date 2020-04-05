@@ -12,6 +12,7 @@ spec:
   containers:
   - name: jnlp
     image: roohoo/jenkins-jnlp-slave:0.0.5
+    tty: true
   - name: docker
     image: docker
     command: ['cat']
