@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d69c600-b4b7-4ad1-b93a-c22d55f118c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipeline.gdsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roohoodev-default.iml" beforeDir="false" afterPath="$PROJECT_DIR$/roohoodev-default.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +56,32 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jroo6\IdeaProjects\roohoodev-default" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jroo6\IdeaProjects\roohoodev-default\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -74,6 +94,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585847778467</updated>
       <workItem from="1585847781908" duration="297000" />
-      <workItem from="1586047216824" duration="4898000" />
+      <workItem from="1586047216824" duration="7358000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1586049558072</created>
@@ -123,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586052312793</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix Jenkinsfile">
+      <created>1586053310565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586053310565</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,10 +187,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586049390416" />
-    <state x="880" y="209" key="CommitChangelistDialog2" timestamp="1586052312397">
+    <state x="880" y="209" key="CommitChangelistDialog2" timestamp="1586053310151">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="880" y="209" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586052312397" />
+    <state x="880" y="209" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586053310151" />
+    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1586104493338">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="442" key="FileChooserDialogImpl/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586104493338" />
     <state width="2517" height="380" key="GridCell.Tab.0.bottom" timestamp="1586050104484">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -179,10 +215,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="985" y="408" key="MultipleFileMergeDialog/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586050182565" />
-    <state x="873" y="430" key="Vcs.Push.Dialog.v2" timestamp="1586052314229">
+    <state x="782" y="343" key="SettingsEditor" timestamp="1586104482043">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="430" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586052314229" />
+    <state x="782" y="343" key="SettingsEditor/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586104482043" />
+    <state x="873" y="430" key="Vcs.Push.Dialog.v2" timestamp="1586105124535">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="430" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586105124535" />
     <state x="988" y="474" key="git4idea.merge.GitPullDialog" timestamp="1586050152670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
