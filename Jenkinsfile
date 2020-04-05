@@ -28,6 +28,7 @@ spec:
         }
     }
 
+
     stages {
         stage('Build') {
             steps {
@@ -36,17 +37,21 @@ spec:
 
             }
         }
-        stage("Build Container"){
-        steps {
-        container('docker') {
-        //sh "docker build -t roohoo/roohoodev-default:0.0.1 ."
-        //sh "docker push roohoo/roohoodev-default:0.0.1"
-        script {
-        def image = docker.build("roohoo/roohoodev-default:0.0.2")
-        image.push()
-}
-        }
-        }
+        stage("Build Container") {
+            steps {
+                container('docker') {
+                    //sh "docker build -t roohoo/roohoodev-default:0.0.1 ."
+                    //sh "docker push roohoo/roohoodev-default:0.0.1"
+                    script {
+                        def image = docker.build("roohoo/roohoodev-default:0.0.2")
+                        docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                            image.push()
+                            image.push("latest")
+                        }
+
+                    }
+                }
+            }
         }
 
     }

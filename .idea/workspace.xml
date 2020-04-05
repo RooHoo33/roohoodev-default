@@ -55,7 +55,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Groovy" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585847778467</updated>
       <workItem from="1585847781908" duration="297000" />
-      <workItem from="1586047216824" duration="9808000" />
+      <workItem from="1586047216824" duration="10369000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1586049558072</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586107568015</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added docker build">
+      <created>1586107907917</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586107907917</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,14 +243,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="873" y="359" key="#Notifications/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586049960696" />
+    <state x="1040" y="491" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586108321938">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1040" y="491" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586108321938" />
     <state x="1011" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586049390416">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="448" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586049390416" />
-    <state x="880" y="209" key="CommitChangelistDialog2" timestamp="1586107567606">
+    <state x="880" y="209" key="CommitChangelistDialog2" timestamp="1586107907524">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="880" y="209" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586107567606" />
+    <state x="880" y="209" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586107907524" />
     <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1586104493338">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -268,14 +279,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="985" y="408" key="MultipleFileMergeDialog/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586050182565" />
-    <state x="782" y="343" key="SettingsEditor" timestamp="1586104482043">
+    <state x="782" y="343" key="SettingsEditor" timestamp="1586108289935">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="782" y="343" key="SettingsEditor/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586104482043" />
-    <state x="873" y="430" key="Vcs.Push.Dialog.v2" timestamp="1586107569503">
+    <state x="782" y="343" key="SettingsEditor/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586108289935" />
+    <state x="873" y="430" key="Vcs.Push.Dialog.v2" timestamp="1586107909109">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="430" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586107569503" />
+    <state x="873" y="430" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1586107909109" />
     <state x="988" y="474" key="git4idea.merge.GitPullDialog" timestamp="1586050152670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
