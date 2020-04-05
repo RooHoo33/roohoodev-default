@@ -34,9 +34,11 @@ spec:
             }
         }
         stage("Build Container"){
+        steps {
         container('docker') {
         sh "docker build -t roohoo/roohoodev-default:0.0.1 ."
 
+        }
         }
         }
 
