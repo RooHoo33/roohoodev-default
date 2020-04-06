@@ -16,6 +16,7 @@ spec:
   - name: kubectl
     image: rancher/kubectl:v1.17.0
     tty: true
+    command: ['cat']
   - name: docker
     image: docker
     command: ['cat']
