@@ -14,7 +14,7 @@ spec:
     image: roohoo/jenkins-jnlp-slave:0.0.5
     tty: true
   - name: kubectl
-    image: rancher/kubectl
+    image: rancher/kubectl:v1.17.0
     tty: true
   - name: docker
     image: docker
