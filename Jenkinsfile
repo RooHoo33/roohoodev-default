@@ -41,7 +41,7 @@ spec:
         stage("Deploy"){
             steps {
                 container("kubectl"){
-                    sh "kubectl -- kubeconfig $KUBECONFIG apply -f k8s/deployment.yaml"
+                    sh "kubectl --kubeconfig $KUBECONFIG apply -f k8s/deployment.yaml"
                 }
                 //kubernetesDeploy configs: '**/k8s/*.yaml', kubeconfigId: 'kubeconfig-master'
             }
