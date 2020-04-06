@@ -13,6 +13,9 @@ spec:
   - name: jnlp
     image: roohoo/jenkins-jnlp-slave:0.0.5
     tty: true
+  - name: kubectl
+    image: rancher/kubectl
+    tty: true
   - name: docker
     image: docker
     command: ['cat']
@@ -29,11 +32,18 @@ spec:
         }
     }
 
+    environment {
+        KUBECONFIG = credentials('kubeconfig-file')
+    }
+
 
     stages {
         stage("Deploy"){
             steps {
-                kubernetesDeploy configs: '**/k8s/*.yaml', kubeconfigId: 'kubeconfig-master'
+                container("kubectl"){
+                    sh "kubectl -- kubeconfig $KUBECONFIG apply -f k8s/deployment.yaml"
+                }
+                //kubernetesDeploy configs: '**/k8s/*.yaml', kubeconfigId: 'kubeconfig-master'
             }
         }
         stage('Build') {
