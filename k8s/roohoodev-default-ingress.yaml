@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: roohoodev-default-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+    - roohoo.dev
+    secretName: roohoodev-default-tls
+  rules:
+  - host: roohoo.dev
+    http:
+      paths:
+      - backend:
+          serviceName: roohoodev-default
+          servicePort: 80
