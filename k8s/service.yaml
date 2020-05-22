@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: roohoodev-default-internal
+  labels:
+    app: roohoodev-default
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      name: default
+  selector:
+    app: roohoodev-default
