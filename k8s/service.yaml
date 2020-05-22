@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: roohoodev-default-internal
+  name: roohoodev-default
   labels:
     app: roohoodev-default
 spec:
